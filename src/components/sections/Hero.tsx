@@ -31,21 +31,9 @@ export default function Hero() {
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
           >
-            Elevate your brand with expert digital design.
+            Elevate your brand with experts.
           </motion.p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.28, ease: "easeOut" }}
-          >
-            <Link
-              href="#contact"
-              className="inline-block bg-[#0D1B3E] text-[#FAF3E8] font-bold text-sm px-8 py-4 rounded-full hover:bg-[#0D1B3E]/80 transition-colors duration-200"
-            >
-              Contact Us
-            </Link>
-          </motion.div>
         </div>
 
         {/* Right: Illustration */}

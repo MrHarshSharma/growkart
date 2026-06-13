@@ -2,30 +2,63 @@ import type { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    id: "ecom-platform",
-    title: "NexaShop",
+    id: "shivshakti",
+    title: "ShivShakti",
     description:
-      "A high-performance e-commerce platform handling 10k+ daily transactions with real-time inventory, AI-powered recommendations, and sub-200ms page loads.",
-    tags: ["Next.js", "Stripe", "AI", "PostgreSQL"],
-    image: "/project-1.jpg",
-    accent: "#079AC6",
+      "Premium gift hampers e-commerce store with handcrafted luxury collections, seamless shopping experience, and elegant product showcases for every occasion.",
+    tags: ["Next.js", "E-Commerce", "UI/UX"],
+    image: "/projects/shivshakti.png",
+    accent: "#C8944A",
+    url: "https://shivshakti-test.vercel.app/",
   },
   {
-    id: "saas-dashboard",
-    title: "FlowMetrics",
+    id: "modara",
+    title: "Modara",
     description:
-      "Analytics SaaS dashboard for 500+ companies. Real-time data visualization, custom reporting, and team collaboration built on a modern data stack.",
-    tags: ["React", "D3.js", "Node.js", "AWS"],
-    image: "/project-2.jpg",
-    accent: "#38c4e8",
+      "Artisanal home decor e-commerce store showcasing handcrafted sculptures, vintage collectibles, and curated lifestyle products.",
+    tags: ["WordPress", "E-Commerce", "WooCommerce"],
+    image: "/projects/modara.png",
+    accent: "#1a1a1a",
+    url: "https://themodara.com/",
   },
   {
-    id: "mobile-fintech",
-    title: "ClearPay",
+    id: "dina-jewelry",
+    title: "Dina Jewelry",
     description:
-      "Fintech mobile app with biometric auth, instant transfers, and smart spend tracking. Reached 100k downloads in the first 3 months.",
-    tags: ["React Native", "Finance", "iOS", "Android"],
-    image: "/project-3.jpg",
-    accent: "#057a9e",
+      "Luxury jewelry brand website with elegant collections showcase, artisan storytelling, and a premium shopping experience.",
+    tags: ["Next.js", "E-Commerce", "UI/UX"],
+    image: "/projects/dina.png",
+    accent: "#C9A84C",
+    url: "https://jewelry-dev.vercel.app/",
+  },
+  {
+    id: "ginnis",
+    title: "Ginni's",
+    description:
+      "Premium ethnic and contemporary Indian fashion store with curated collections, lookbook, and seamless shopping.",
+    tags: ["Next.js", "E-Commerce", "Fashion"],
+    image: "/projects/ginnis.png",
+    accent: "#C4A035",
+    url: "https://ginni-dev.vercel.app/",
+  },
+  {
+    id: "mahek-provisions",
+    title: "Mahek Provisions",
+    description:
+      "Heritage grocery and provisions brand delivering farm-fresh essentials and dry fruits since 1916.",
+    tags: ["Next.js", "E-Commerce", "Food"],
+    image: "/projects/mahek.png",
+    accent: "#2D8B3D",
+    url: "https://mahekprovisions-deploy.vercel.app/",
+  },
+  {
+    id: "budget-cosmetic",
+    title: "Budget Cosmetic",
+    description:
+      "Premium cosmetics and skincare e-commerce store with elegant product displays and smooth shopping experience.",
+    tags: ["Next.js", "E-Commerce", "Beauty"],
+    image: "/projects/budgetcosmetic.png",
+    accent: "#8B6040",
+    url: "https://clothbrand-dev.vercel.app/",
   },
 ];

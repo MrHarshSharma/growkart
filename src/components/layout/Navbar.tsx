@@ -12,9 +12,9 @@ export default function Navbar() {
           <Image
             src="/growkartlogo.png"
             alt="GrowKart"
-            width={100}
-            height={100}
-            className="w-24 h-24 object-contain"
+            width={48}
+            height={48}
+            className="w-12 h-12 object-contain"
             priority
           />
         </Link>
