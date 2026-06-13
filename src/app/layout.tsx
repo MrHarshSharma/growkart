@@ -9,6 +9,10 @@ const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "GrowKart — Crafting Digital Solutions",
   description: "Elevate your brand with experts.",
+  icons: {
+    icon: "/growkartlogo.png",
+    apple: "/growkartlogo.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
