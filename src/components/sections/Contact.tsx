@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="w-full h-px bg-[#0D1B3E] opacity-20" />
 
       <div className="max-w-7xl mx-auto px-8 lg:px-16 py-20 lg:py-28">
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-around gap-12">
+        <div className="flex flex-col items-center lg:flex-row lg:justify-around gap-12">
           <div>
           <motion.p
             className="flex items-center gap-2 text-[11px] font-black tracking-[0.22em] uppercase text-[#0D1B3E]/50 mb-5"
@@ -46,7 +46,7 @@ export default function Contact() {
 
           <motion.a
             href="tel:+919665654326"
-            className="inline-flex items-center justify-center gap-3 bg-[#0D1B3E] text-[#FAF3E8] font-bold text-sm px-8 py-4 rounded-full hover:bg-[#0D1B3E]/80 transition-colors duration-200 shrink-0 self-start"
+            className="inline-flex items-center justify-center gap-3 bg-[#0D1B3E] text-[#FAF3E8] font-bold text-sm px-8 py-4 rounded-full hover:bg-[#0D1B3E]/80 transition-colors duration-200 shrink-0"
             initial={{ opacity: 0, y: 16 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.26, ease: "easeOut" }}
