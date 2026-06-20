@@ -2,6 +2,26 @@ import type { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    id: "cherishchow",
+    title: "Cherish Chow",
+    description:
+      "AI-powered smart restaurant platform with digital ordering, an AI chatbot that guides customers to perfect dishes, and real-time order management.",
+    tags: ["Next.js", "AI", "SaaS"],
+    image: "/projects/cherishchow.png",
+    accent: "#2EA666",
+    url: "https://cherishchow.com/",
+  },
+  {
+    id: "vikram-kitchen",
+    title: "The Vikram's Kitchen",
+    description:
+      "Elegant pure-veg restaurant website where every dish tells a story of tradition, featuring curated menus, specialties, and seamless online ordering.",
+    tags: ["Next.js", "Restaurant", "UI/UX"],
+    image: "/projects/vikram.png",
+    accent: "#7BA86B",
+    url: "https://vikramkitchen.vercel.app/",
+  },
+  {
     id: "shivshakti",
     title: "ShivShakti",
     description:
