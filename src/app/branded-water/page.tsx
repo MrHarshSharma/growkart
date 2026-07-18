@@ -75,8 +75,10 @@ export default function BrandedWaterPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <WaterHero />
-      <WaterReasons />
+      {/* Tool sits directly under the hero — let visitors see their own brand
+          on a bottle before they read a word of the pitch. */}
       <BottleMockup />
+      <WaterReasons />
       <WaterProcess />
       <WaterTiers />
       <WaterCTA />

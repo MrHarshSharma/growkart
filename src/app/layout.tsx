@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import HashScroll from "@/components/layout/HashScroll";
@@ -80,6 +81,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Footer />
       </body>
+      {/*
+        Loads gtag.js and, unlike the raw snippet, also reports a pageview on
+        client-side route changes — otherwise only the first page of a visit
+        would ever be counted.
+      */}
+      <GoogleAnalytics gaId="G-GLYELFMEXH" />
     </html>
   );
 }
