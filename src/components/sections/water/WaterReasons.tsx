@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "motion/react";
 import { useRef } from "react";
-import { waterMockupLink, waterReasons } from "@/data/water";
+import { waterReasons } from "@/data/water";
 
 export default function WaterReasons() {
   const ref = useRef<HTMLElement>(null);
@@ -85,12 +85,10 @@ export default function WaterReasons() {
               obligation.
             </p>
             <a
-              href={waterMockupLink}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#mockup"
               className="inline-flex items-center justify-center gap-2 bg-[#F25C2A] text-white font-bold text-sm px-6 py-3.5 rounded-full hover:bg-[#d94d1e] transition-colors duration-200 self-start"
             >
-              Get a Free Mockup
+              Try It Now
               <span aria-hidden="true">&rarr;</span>
             </a>
           </motion.div>

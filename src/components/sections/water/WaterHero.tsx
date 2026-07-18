@@ -3,7 +3,7 @@
 import { motion, useInView } from "motion/react";
 import { useRef } from "react";
 import { phoneDisplay, phoneHref } from "@/data/business";
-import { waterCity, waterFromPrice, waterMockupLink } from "@/data/water";
+import { waterCity, waterFromPrice } from "@/data/water";
 
 const trustPoints = [
   `From ${waterFromPrice} per bottle`,
@@ -59,12 +59,10 @@ export default function WaterHero() {
             transition={{ duration: 0.5, delay: 0.26, ease: "easeOut" }}
           >
             <a
-              href={waterMockupLink}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#mockup"
               className="inline-flex items-center justify-center gap-2 bg-[#F25C2A] text-white font-bold text-sm px-8 py-4 rounded-full hover:bg-[#d94d1e] transition-colors duration-200"
             >
-              Get a Free Bottle Mockup
+              Design Your Bottle Free
               <span aria-hidden="true">&rarr;</span>
             </a>
             <a

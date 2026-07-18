@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import WaterHero from "@/components/sections/water/WaterHero";
 import WaterReasons from "@/components/sections/water/WaterReasons";
+import BottleMockup from "@/components/sections/water/BottleMockup";
 import WaterProcess from "@/components/sections/water/WaterProcess";
 import WaterTiers from "@/components/sections/water/WaterTiers";
 import WaterCTA from "@/components/sections/water/WaterCTA";
@@ -75,6 +76,7 @@ export default function BrandedWaterPage() {
       />
       <WaterHero />
       <WaterReasons />
+      <BottleMockup />
       <WaterProcess />
       <WaterTiers />
       <WaterCTA />
