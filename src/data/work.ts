@@ -4,6 +4,8 @@ export const projects: Project[] = [
   {
     id: "cherishchow",
     title: "Cherish Chow",
+    industry: "Restaurant",
+    outcome: "Takes orders online, without an aggregator's commission.",
     description:
       "AI-powered smart restaurant platform with digital ordering, an AI chatbot that guides customers to perfect dishes, and real-time order management.",
     tags: ["Next.js", "AI", "SaaS"],
@@ -14,6 +16,8 @@ export const projects: Project[] = [
   {
     id: "vikram-kitchen",
     title: "The Vikram's Kitchen",
+    industry: "Restaurant",
+    outcome: "Shows the full menu before customers pick up the phone.",
     description:
       "Elegant pure-veg restaurant website where every dish tells a story of tradition, featuring curated menus, specialties, and seamless online ordering.",
     tags: ["Next.js", "Restaurant", "UI/UX"],
@@ -24,6 +28,8 @@ export const projects: Project[] = [
   {
     id: "shivshakti",
     title: "ShivShakti",
+    industry: "Gifting Store",
+    outcome: "Sells hampers online through festival season.",
     description:
       "Premium gift hampers e-commerce store with handcrafted luxury collections, seamless shopping experience, and elegant product showcases for every occasion.",
     tags: ["Next.js", "E-Commerce", "UI/UX"],
@@ -34,6 +40,8 @@ export const projects: Project[] = [
   {
     id: "modara",
     title: "Modara",
+    industry: "Home Decor Store",
+    outcome: "Puts a physical decor catalogue online.",
     description:
       "Artisanal home decor e-commerce store showcasing handcrafted sculptures, vintage collectibles, and curated lifestyle products.",
     tags: ["WordPress", "E-Commerce", "WooCommerce"],
@@ -44,6 +52,8 @@ export const projects: Project[] = [
   {
     id: "dina-jewelry",
     title: "Dina Jewelry",
+    industry: "Jewellery Showroom",
+    outcome: "Lets buyers browse collections before visiting.",
     description:
       "Luxury jewelry brand website with elegant collections showcase, artisan storytelling, and a premium shopping experience.",
     tags: ["Next.js", "E-Commerce", "UI/UX"],
@@ -54,6 +64,8 @@ export const projects: Project[] = [
   {
     id: "ginnis",
     title: "Ginni's",
+    industry: "Fashion Boutique",
+    outcome: "Turns a boutique's rack into a browsable lookbook.",
     description:
       "Premium ethnic and contemporary Indian fashion store with curated collections, lookbook, and seamless shopping.",
     tags: ["Next.js", "E-Commerce", "Fashion"],
@@ -64,6 +76,8 @@ export const projects: Project[] = [
   {
     id: "mahek-provisions",
     title: "Mahek Provisions",
+    industry: "Grocery Store",
+    outcome: "Brings a 1916 provisions business online.",
     description:
       "Heritage grocery and provisions brand delivering farm-fresh essentials and dry fruits since 1916.",
     tags: ["Next.js", "E-Commerce", "Food"],
@@ -74,6 +88,8 @@ export const projects: Project[] = [
   {
     id: "budget-cosmetic",
     title: "Budget Cosmetic",
+    industry: "Cosmetics Store",
+    outcome: "Sells skincare online with a full product catalogue.",
     description:
       "Premium cosmetics and skincare e-commerce store with elegant product displays and smooth shopping experience.",
     tags: ["Next.js", "E-Commerce", "Beauty"],

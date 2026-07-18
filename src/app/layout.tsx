@@ -3,26 +3,29 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import HashScroll from "@/components/layout/HashScroll";
 
 const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://growkart.in"),
   title: {
-    default: "GrowKart — Web Design & Development Agency",
+    default: "GrowKart — Websites That Get Local Businesses More Customers",
     template: "%s | GrowKart",
   },
   description:
-    "GrowKart is a digital agency specializing in website design, web development, e-commerce solutions, UI/UX design, and brand identity for modern businesses.",
+    "We build websites and online stores for restaurants, shops, showrooms and local businesses across India. Fixed price, fixed timeline. Get a free website audit.",
   keywords: [
-    "web development agency",
-    "website design",
-    "e-commerce development",
-    "UI UX design",
-    "digital agency India",
-    "Next.js development",
-    "brand identity",
-    "mobile app development",
+    "website design for small business India",
+    "restaurant website design",
+    "online store for local shop",
+    "ecommerce website India",
+    "google business profile setup",
+    "local SEO India",
+    "affordable website design India",
+    "website for showroom",
+    "mobile app development India",
+    "custom business software India",
     "GrowKart",
   ],
   authors: [{ name: "GrowKart" }],
@@ -36,9 +39,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://growkart.in",
     siteName: "GrowKart",
-    title: "GrowKart — Web Design & Development Agency",
+    title: "GrowKart — Websites That Get Local Businesses More Customers",
     description:
-      "We design, build, and grow digital products that drive real results. Website design, e-commerce, UI/UX, and brand identity.",
+      "Websites and online stores for restaurants, shops and local businesses across India. Fixed price, fixed timeline, free website audit.",
     images: [
       {
         url: "/growkartlogo.png",
@@ -50,9 +53,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "GrowKart — Web Design & Development Agency",
+    title: "GrowKart — Websites That Get Local Businesses More Customers",
     description:
-      "We design, build, and grow digital products that drive real results.",
+      "Websites and online stores for restaurants, shops and local businesses across India.",
     images: ["/growkartlogo.png"],
   },
   robots: {
@@ -73,6 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={geist.variable}>
       <body className="min-h-screen bg-[#FAF3E8] text-[#0D1B3E]">
         <Navbar />
+        <HashScroll />
         {children}
         <Footer />
       </body>

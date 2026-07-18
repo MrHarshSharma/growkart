@@ -1,33 +1,47 @@
 import Hero from "@/components/sections/Hero";
-import Values from "@/components/sections/Values";
+import Impact from "@/components/sections/Impact";
+import Industries from "@/components/sections/Industries";
 import ServicesGrid from "@/components/sections/ServicesGrid";
 import FeaturedWork from "@/components/sections/FeaturedWork";
-import Impact from "@/components/sections/Impact";
 import Testimonials from "@/components/sections/Testimonials";
+import Values from "@/components/sections/Values";
+import Pricing from "@/components/sections/Pricing";
 import Process from "@/components/sections/Process";
 import Contact from "@/components/sections/Contact";
+import { plans, phoneDisplay, founder } from "@/data/business";
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "ProfessionalService",
   name: "GrowKart",
   url: "https://growkart.in",
   logo: "https://growkart.in/growkartlogo.png",
+  image: "https://growkart.in/growkartlogo.png",
   description:
-    "Digital agency specializing in website design, web development, e-commerce solutions, UI/UX design, and brand identity.",
-  telephone: "+91-9665654326",
+    "GrowKart builds websites, online stores, mobile apps and custom business software for restaurants, retail shops, showrooms and local service businesses across India.",
+  telephone: phoneDisplay,
+  priceRange: plans[0].price + "+",
   sameAs: ["https://instagram.com/growkart.in"],
+  founder: {
+    "@type": "Person",
+    name: founder.name,
+  },
   address: {
     "@type": "PostalAddress",
     addressCountry: "IN",
   },
+  areaServed: {
+    "@type": "Country",
+    name: "India",
+  },
   serviceType: [
-    "Website Design",
-    "Web Development",
-    "E-Commerce Development",
-    "UI/UX Design",
-    "Brand Identity",
-    "Digital Marketing",
+    "Website Design for Small Business",
+    "E-Commerce Website Development",
+    "Restaurant Website Design",
+    "Mobile App Development",
+    "Custom Business Software",
+    "Google Business Profile Setup",
+    "Local SEO",
   ],
 };
 
@@ -38,12 +52,15 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {/* Order is a persuasion sequence: hook → problem → who → what → proof → trust → price → process → ask */}
       <Hero />
-      <Values />
+      <Impact />
+      <Industries />
       <ServicesGrid />
       <FeaturedWork />
-      <Impact />
       <Testimonials />
+      <Values />
+      <Pricing />
       <Process />
       <Contact />
     </>

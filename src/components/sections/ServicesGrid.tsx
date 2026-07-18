@@ -12,54 +12,62 @@ const services = [
         <path d="M7 11h5M7 14h9" stroke="#0D1B3E" strokeWidth="1.5" strokeLinecap="round"/>
       </svg>
     ),
-    title: "Website Design",
-    description: "Pixel-perfect, responsive websites that reflect your brand and convert visitors into customers.",
+    title: "Business Websites",
+    outcome: "So customers choose you before they call.",
+    description:
+      "A fast, mobile-first site that shows what you sell, why you're trusted, and how to reach you — with enquiry and WhatsApp buttons on every screen.",
   },
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M6 4h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" stroke="#0D1B3E" strokeWidth="2"/>
-        <path d="M9 12l2.5 2.5L19 9" stroke="#0D1B3E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M4 9h20" stroke="#0D1B3E" strokeWidth="1.5"/>
-        <circle cx="7" cy="6.5" r="0.8" fill="#0D1B3E"/>
-        <circle cx="10" cy="6.5" r="0.8" fill="#0D1B3E"/>
+        <path d="M4 7h20l-2 12H6L4 7z" stroke="#0D1B3E" strokeWidth="2" strokeLinejoin="round"/>
+        <path d="M4 7L3 3H1" stroke="#0D1B3E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <circle cx="10" cy="23" r="1.6" fill="#0D1B3E"/>
+        <circle cx="19" cy="23" r="1.6" fill="#0D1B3E"/>
       </svg>
     ),
-    title: "Web Development",
-    description: "Scalable, high-performance web apps built on modern stacks — from MVPs to enterprise platforms.",
+    title: "Online Stores",
+    outcome: "So you take orders while the shop is closed.",
+    description:
+      "A complete e-commerce store with your catalogue, online payments, and order management — built so you can run it yourself without a developer.",
   },
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <rect x="9" y="2" width="10" height="18" rx="2" stroke="#0D1B3E" strokeWidth="2"/>
-        <path d="M12 18h4" stroke="#0D1B3E" strokeWidth="2" strokeLinecap="round"/>
+        <circle cx="12" cy="12" r="8" stroke="#0D1B3E" strokeWidth="2"/>
+        <path d="M18 18l6 6" stroke="#0D1B3E" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M12 4v16M4 12h16" stroke="#0D1B3E" strokeWidth="1.2" opacity="0.5"/>
+      </svg>
+    ),
+    title: "Google & Local SEO",
+    outcome: "So people nearby find you first.",
+    description:
+      "Google Business setup, local search optimisation, and page structure that helps you show up when someone searches for what you sell in your area.",
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <rect x="9" y="2" width="10" height="24" rx="2" stroke="#0D1B3E" strokeWidth="2"/>
+        <path d="M12 22h4" stroke="#0D1B3E" strokeWidth="2" strokeLinecap="round"/>
         <path d="M11 6h6M11 9h4" stroke="#0D1B3E" strokeWidth="1.5" strokeLinecap="round"/>
-        <path d="M5 10h4M19 10h4" stroke="#0D1B3E" strokeWidth="1.5" strokeLinecap="round" strokeDasharray="2 1"/>
       </svg>
     ),
-    title: "Mobile App Development",
-    description: "Native and cross-platform iOS & Android apps that deliver seamless experiences on every device.",
+    title: "Mobile Apps",
+    outcome: "So your best customers keep coming back.",
+    description:
+      "Android and iOS apps for businesses ready to own the relationship — loyalty, repeat orders, and notifications that bring people back in.",
   },
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="14" r="10" stroke="#0D1B3E" strokeWidth="2"/>
-        <path d="M14 9v5l3 3" stroke="#0D1B3E" strokeWidth="2" strokeLinecap="round"/>
-        <path d="M7 7l2 2M21 7l-2 2" stroke="#0D1B3E" strokeWidth="1.5" strokeLinecap="round"/>
+        <path d="M17.5 4.5a5.5 5.5 0 0 0-7.4 6.9L4 17.5 6.5 20l6.1-6.1a5.5 5.5 0 0 0 6.9-7.4l-3 3-2.5-2.5 3-2.5z" stroke="#0D1B3E" strokeWidth="2" strokeLinejoin="round"/>
+        <circle cx="19" cy="19" r="4" stroke="#0D1B3E" strokeWidth="1.5"/>
       </svg>
     ),
-    title: "UI / UX Design",
-    description: "Research-driven interfaces that feel intuitive. We prototype, test, and refine until it's right.",
-  },
-  {
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M14 4L4 9v5c0 5.25 4.3 10.15 10 11.35C19.7 24.15 24 19.25 24 14V9L14 4z" stroke="#0D1B3E" strokeWidth="2" strokeLinejoin="round"/>
-        <path d="M10 14l2.5 2.5L18 11" stroke="#0D1B3E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    ),
-    title: "Brand Identity",
-    description: "Logo, colour palette, typography, and brand guidelines — everything you need to show up consistently.",
+    title: "Custom Tools & Software",
+    outcome: "So the admin work stops eating your day.",
+    description:
+      "Billing, inventory, bookings, dashboards and internal tools built around how your business already runs — not the other way around.",
   },
   {
     icon: (
@@ -69,8 +77,10 @@ const services = [
         <path d="M18 5h6M18 8h4M18 11h5" stroke="#0D1B3E" strokeWidth="1.5" strokeLinecap="round"/>
       </svg>
     ),
-    title: "Digital Marketing",
-    description: "SEO, paid ads, and social media strategies that put your brand in front of the right audience.",
+    title: "Ongoing Growth",
+    outcome: "So the site keeps earning after launch.",
+    description:
+      "Content updates, technical support, and paid campaigns when you're ready to scale — with plain-English reporting on what's actually working.",
   },
 ];
 
@@ -79,12 +89,12 @@ export default function ServicesGrid() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section ref={ref} className="bg-[#FAF3E8] w-full">
+    <section id="services" ref={ref} className="bg-[#FAF3E8] w-full">
       <div className="w-full h-px bg-[#0D1B3E] opacity-20" />
 
       <div className="max-w-7xl mx-auto px-8 lg:px-16 py-20 lg:py-28">
         {/* Header */}
-        <div className="mb-16">
+        <div className="mb-16 max-w-2xl">
           <motion.p
             className="flex items-center gap-2 text-[11px] font-black tracking-[0.22em] uppercase text-[#0D1B3E]/50 mb-5"
             initial={{ opacity: 0 }}
@@ -95,29 +105,49 @@ export default function ServicesGrid() {
           </motion.p>
 
           <motion.h2
-            className="text-[#0D1B3E] font-black leading-tight tracking-tight"
+            className="text-[#0D1B3E] font-black leading-tight tracking-tight mb-6"
             style={{ fontSize: "clamp(32px, 4vw, 52px)" }}
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.08, ease: "easeOut" }}
           >
-            Services built for<br />modern businesses
+            Start with a website.
+            <br />
+            Grow into everything else.
           </motion.h2>
+
+          <motion.p
+            className="text-[#0D1B3E]/60 text-base leading-relaxed"
+            initial={{ opacity: 0, y: 16 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.55, delay: 0.18, ease: "easeOut" }}
+          >
+            Most clients come to us for a website, because that&apos;s what brings customers
+            in first. When the business is ready for an app, a store, or custom software,
+            you don&apos;t have to go find another agency.
+          </motion.p>
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-[#0D1B3E]/10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-[#0D1B3E]/10">
           {services.map((s, i) => (
             <motion.div
               key={s.title}
-              className="bg-[#FAF3E8] p-8 flex flex-col gap-4"
+              className="bg-[#FAF3E8] p-8 lg:p-10 flex flex-col gap-2"
               initial={{ opacity: 0, y: 24 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.55, delay: i * 0.07, ease: "easeOut" }}
             >
-              <div>{s.icon}</div>
-              <h3 className="text-[#0D1B3E] font-black text-lg tracking-tight">{s.title}</h3>
-              <p className="text-[#0D1B3E]/55 text-sm leading-relaxed">{s.description}</p>
+              <div className="flex flex-row items-center gap-4">
+                <div className="shrink-0">{s.icon}</div>
+                <h3 className="text-[#0D1B3E] font-black text-xl tracking-tight">
+                  {s.title}
+                </h3>
+              </div>
+              <p className="text-[#F25C2A] font-bold text-sm">{s.outcome}</p>
+              <p className="text-[#0D1B3E]/55 text-sm leading-relaxed mt-2">
+                {s.description}
+              </p>
             </motion.div>
           ))}
         </div>

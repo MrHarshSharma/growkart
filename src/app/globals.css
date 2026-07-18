@@ -9,6 +9,9 @@
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
+/* Clears the sticky navbar so anchored sections aren't hidden underneath it. */
+section[id] { scroll-margin-top: 88px; }
+
 body {
   background: #FAF3E8;
   color: #0D1B3E;
