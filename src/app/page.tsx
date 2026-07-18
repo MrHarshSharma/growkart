@@ -5,6 +5,7 @@ import ServicesGrid from "@/components/sections/ServicesGrid";
 import FeaturedWork from "@/components/sections/FeaturedWork";
 import Testimonials from "@/components/sections/Testimonials";
 import Values from "@/components/sections/Values";
+import WaterBand from "@/components/sections/WaterBand";
 import Pricing from "@/components/sections/Pricing";
 import Process from "@/components/sections/Process";
 import Contact from "@/components/sections/Contact";
@@ -42,6 +43,7 @@ const jsonLd = {
     "Custom Business Software",
     "Google Business Profile Setup",
     "Local SEO",
+    "Custom-Labelled Drinking Water Supply",
   ],
 };
 
@@ -61,6 +63,7 @@ export default function Home() {
       <Testimonials />
       <Values />
       <Pricing />
+      <WaterBand />
       <Process />
       <Contact />
     </>

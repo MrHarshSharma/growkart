@@ -13,6 +13,7 @@ const siteLinks = [
   { label: "Services", href: "/#services" },
   { label: "Our Work", href: "/#work" },
   { label: "Pricing", href: "/#pricing" },
+  { label: "Branded Water", href: "/branded-water" },
   { label: "About", href: "/about" },
   { label: "Process", href: "/#process" },
   { label: "Free Audit", href: "/#contact" },
